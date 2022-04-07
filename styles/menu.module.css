@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+}
+.menuLink {
+  font-size: 1.4rem;
+  color: #FFF;
+  background-color: #1e1c32;
+  padding: 5px 25px;
+  font-weight: 500;
+}
