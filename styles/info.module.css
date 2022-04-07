@@ -1,0 +1,19 @@
+.info {
+  width: 75%;
+}
+.info h4 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #272344;
+}
+.infoCategories {
+  display: flex;
+  height: 100%;
+}
+
+@media screen and (max-width) {
+  .info {
+    width: 100%;
+  }
+}

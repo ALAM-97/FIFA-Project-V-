@@ -12,9 +12,27 @@
 }
 .cardContainer img {
   width: 100%;
+  height: auto;
 }
 .cardContainer h5 {
-  color: #FFF;
   font-size: 1.7rem;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .cardContainer {
+    width: 20%;
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .cardContainer img {
+    width: 30%;
+    height: auto;
+  }
 }

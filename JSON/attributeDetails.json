@@ -1,0 +1,162 @@
+[
+  {
+    "title": "PACE",
+    "overall": 85,
+    "stats": [
+      {
+        "name": "Acceleration",
+        "number": 91
+      },
+      {
+        "name": "Sprint Speed",
+        "number": 80
+      }
+    ]
+  },
+  {
+    "title": "SHOOTING",
+    "overall": 92,
+    "stats": [
+      {
+        "name": "Att. Position",
+        "number": 93
+      },
+      {
+        "name": "Finishing",
+        "number": 95
+      },
+      {
+        "name": "Shot Power",
+        "number": 86
+      },
+      {
+        "name": "Long Shots",
+        "number": 94
+      },
+      {
+        "name": "Volleys",
+        "number": 88
+      },
+      {
+        "name": "Penalties",
+        "number": 75
+      }
+    ]
+  },
+  {
+    "title": "PASSING",
+    "overall": 91,
+    "stats": [
+      {
+        "name": "Vision",
+        "number": 95
+      },
+      {
+        "name": "Crossing",
+        "number": 85
+      },
+      {
+        "name": "FK Acc.",
+        "number": 94
+      },
+      {
+        "name": "Short Pass",
+        "number": 91
+      },
+      {
+        "name": "Long Pass",
+        "number": 91
+      },
+      {
+        "name": "Curve",
+        "number": 93
+      }
+    ]
+  },
+  {
+    "title": "DRIBBLING",
+    "overall": 95,
+    "stats": [
+      {
+        "name": "Agility",
+        "number": 91
+      },
+      {
+        "name": "Balance",
+        "number": 95
+      },
+      {
+        "name": "Reactions",
+        "number": 94
+      },
+      {
+        "name": "Ball Control",
+        "number": 96
+      },
+      {
+        "name": "Dribbling",
+        "number": 96
+      },
+      {
+        "name": "Composure",
+        "number": 96
+      }
+    ]
+  },
+  {
+    "title": "DEFENDING",
+    "overall": 38,
+    "stats": [
+      {
+        "name": "Interceptions",
+        "number": 40
+      },
+      {
+        "name": "Heading Acc.",
+        "number": 70
+      },
+      {
+        "name": "Def. Aware",
+        "number": 32
+      },
+      {
+        "name": "Stand Tackle",
+        "number": 35
+      },
+      {
+        "name": "Slide Tackle",
+        "number": 35
+      }
+    ]
+  },
+  {
+    "title": "PHYSICAL",
+    "overall": 65,
+    "stats": [
+      {
+        "name": "Jumping",
+        "number": 68
+      },
+      {
+        "name": "Stamina",
+        "number": 72
+      },
+      {
+        "name": "Strength",
+        "number": 69
+      },
+      {
+        "name": "Aggression",
+        "number": 44
+      },
+      {
+        "name": "Volleys",
+        "number": 88
+      },
+      {
+        "name": "Penalties",
+        "number": 75
+      }
+    ]
+  }
+]
