@@ -2,19 +2,17 @@
 import styles from '../../styles/info.module.css'
 
 const Ability = (props) => {
-
-  console.log(props.stats)
   return (
     <>
       {props.stats.map((stat) => (
-        <div className={styles.single_stat_info}>
+        <div className={styles.single_stat_info} key={stat.name}>
           <div className={styles.info_stat}>
             <p>{stat.name}</p>
             <div className={styles.number}>{stat.number}</div>
           </div>
           <div className={styles.stat_line}>
             <div
-              class={styles.stat_line_colored}
+              className={styles.stat_line_colored}
               style={{
                 background: `${
                   (stat.number > 70 && "#1cb310") ||

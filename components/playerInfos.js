@@ -8,7 +8,7 @@ const PLAYER =
   {
     name: 'MESSI',
     rarity: 'GOLD RARE',
-    img: 'messi.webp'
+    img: '/messi.webp'
   }
 
 

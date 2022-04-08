@@ -11,7 +11,7 @@ const Info = () => {
       <h4>ATTRIBUTE DETAILS</h4>
       <div className={styles.infoCategories}>
         {STATS.map(category => (
-          <SingleStatsContainer category={category} />
+          <SingleStatsContainer key={category.title} category={category} />
         ))}
       </div>
     </div>

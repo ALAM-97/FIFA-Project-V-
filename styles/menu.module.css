@@ -7,6 +7,7 @@
   background-color: #1e1c32;
   padding: 5px 25px;
   font-weight: 500;
+  cursor: pointer;
 }
 .menuLink:hover {
   background-color: rgba(30, 28, 50, .6);
