@@ -1,5 +1,7 @@
 .info {
   width: 75%;
+  display: flex;
+  flex-direction: column;
 }
 .info h4 {
   font-size: 1.3rem;
@@ -9,11 +11,116 @@
 }
 .infoCategories {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   height: 100%;
 }
 
-@media screen and (max-width) {
+/* SINGLE STATS */
+.singleCategory {
+  width: calc(100% / 6);
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.singleCategory h5 {
+  color: #838292;
+  font-size: 1.3rem;
+}
+.semicircle {
+  position: relative;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 65%;
+  height: 60px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 13px solid rgb(128, 128, 128);
+  border-bottom: 0;
+  margin-bottom: 15px;
+}
+.num_text {
+  font-size: 2rem;
+  font-weight: bold;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  position: absolute
+}
+
+/* ABILITY */
+.single_stat_info {
+  margin: 15px auto;
+  width: 65%;
+  color: #8382a1;
+  font-size: .8rem;
+  font-weight: 500;
+}
+.info_stat {
+  display: flex;
+  justify-content: space-evenly;
+}
+.number {
+  margin-left: auto
+}
+.stat_line {
+  margin: auto;
+  width: 100%;
+  height: 4px;
+  background-color: gray;
+  margin-top: 5px;
+  border-radius: 2px;
+  position: relative;
+}
+.stat_line_colored {
+  position: absolute;
+  border-radius: 2px;
+  height: 4px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .info {
+    width: 80%;
+  }
+  .single_stat_info {
+    margin: 15px auto;
+    width: 75%;
+    color: #8382a1;
+    font-size: .8rem;
+    font-weight: 500;
+  }
+  .singleCategory h5 {
+    font-size: 1.1rem;
+  }
+  .semicircle {
+    width: 75%;
+  }
+  .num_text {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .info {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .singleCategory {
+    width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .singleCategory {
+    width: calc(100% / 2);
   }
 }

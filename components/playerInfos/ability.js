@@ -1,5 +1,5 @@
 // CSS
-import styles from '../../styles/ability.module.css'
+import styles from '../../styles/info.module.css'
 
 const Ability = (props) => {
 
@@ -8,7 +8,7 @@ const Ability = (props) => {
     <>
       {props.stats.map((stat) => (
         <div className={styles.single_stat_info}>
-          <div className={styles.info}>
+          <div className={styles.info_stat}>
             <p>{stat.name}</p>
             <div className={styles.number}>{stat.number}</div>
           </div>

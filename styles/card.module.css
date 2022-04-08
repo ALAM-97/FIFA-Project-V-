@@ -33,6 +33,11 @@
   }
   .cardContainer img {
     width: 30%;
-    height: auto;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .cardContainer img {
+    width: 50%;
   }
 }

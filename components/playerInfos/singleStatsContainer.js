@@ -1,5 +1,5 @@
 // CSS
-import styles from '../../styles/singleStats.module.css'
+import styles from '../../styles/info.module.css'
 import Ability from './ability';
 
 const SingleStatsContainer = (props) => {
